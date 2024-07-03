@@ -3,7 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <title>Page Title</title>
-    <script src="rockpaperscissors.js" defer></script>
+    <script src="rockpaperscissorsui.js" defer></script>
+    <link rel="stylesheet" href="stylesheet.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="header">
+      <h1>Rock Paper Scissors</h1>
+    </div>
+    <div id="result"><h3>Results will here</h3></div>
+    <div id="scores">
+      <div id="playerScore"><h3>Human score is 0</h3></div>
+      <div id="computerScore"><h3>Computer score is 0</h3></div>
+    </div>
+    <div id="rpscontainer">
+      <img src="rps.png" alt="" />
+      <div id="rpsbuttons">
+        <div id="sp">
+          <div id="scissorsdiv"><button id="scissors"></button></div>
+          <div id="paperdiv"><button id="paper"></button></div>
+        </div>
+        <div id="r">
+          <div id="rockdiv"><button id="rock"></button></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

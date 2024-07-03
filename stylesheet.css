@@ -1,0 +1,94 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+#result{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+#scores{
+    height: 100px;
+    display: flex;
+    gap: 30px
+}
+#playerScore{
+    display: flex;
+    flex: 1 0 0;
+    justify-content: flex-end;
+}
+
+#computerScore{
+    display: flex;
+    flex:1 0 0;
+    justify-content: flex-start;
+}
+
+
+
+#rpscontainer {
+  display: flex;
+  justify-content: center;
+}
+img {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+}
+#rpsbuttons {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+}
+#sp {
+  display: flex;
+  flex: 1.5 0 0;
+}
+#scissorsdiv {
+  display: flex;
+  flex: 1.5 0 0;
+}
+#scissors {
+  width: 100%;
+  background-color: transparent;
+}
+
+#paperdiv {
+  display: flex;
+  flex: 1 0 0;
+}
+
+#paper {
+  width: 100%;
+  background-color: transparent;
+}
+
+#r {
+  display: flex;
+  flex: 1 0 0;
+}
+
+#rockdiv {
+  display: flex;
+  flex: 1 0 0;
+}
+
+#rock {
+  width: 100%;
+  background-color: transparent;
+}
